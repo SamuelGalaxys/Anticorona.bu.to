@@ -1,0 +1,893 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>안티코로나 : 코로나 바이러스 현황</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/css/ready.css">
+    <link rel="stylesheet" href="assets/css/demo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="assets/img/zicon.png" rel="icon">
+    <link href="assets/img/zicon.png" rel="apple-touch-icon">
+
+
+
+
+
+</head>
+
+
+
+
+<style>
+
+    img[alt="www.000webhost.com"] {
+        display: none;
+    }
+</style>
+
+<body>
+
+
+
+
+    <div class="wrapper">
+
+
+
+        <div class="main-header">
+            <div class="logo-header">
+                <a href="index.html" class="logo">
+                    안티코로나
+                </a>
+                <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <button class="topbar-toggler more"><i class="la la-ellipsis-v"></i></button>
+            </div>
+            <nav class="navbar navbar-header navbar-expand-lg">
+                <div class="container-fluid">
+
+
+
+
+                    <form class="navbar-left navbar-form nav-search mr-md-3">
+                        <div class="input-group">
+
+
+
+                            <a href="http://facebook.bu.to" class="form-control">
+                                개발자 : 김기훈
+                            </a>
+
+                            <div class="input-group-append">
+
+                            </div>
+                        </div>
+                    </form>
+
+
+
+
+                    <ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
+
+
+                        <a class="form-control">
+                            제보나 피드백은 <strong>SamuelTheGalaxys@gmail.com</strong> 으로 부탁드립니다.
+                        </a>
+
+
+                        <li class="nav-item dropdown hidden-caret">
+
+
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="la la-reorder"></i>
+                                <!-- <span class="notification">더보기</span>      -->
+                            </a>
+
+
+
+
+
+
+                            <ul class="dropdown-menu notif-box" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <div class="dropdown-title">더보기</div>
+                                </li>
+                                <li>
+                                    <div class="notif-center">
+
+
+                                        <a href="http://www.cdc.go.kr/index.es?sid=a2">
+                                            <div class="notif-img">
+                                                <img src="assets/img/korlogo.png" alt="Img Profile">
+                                            </div>
+
+                                            <div class="notif-content">
+                                                <span class="block">
+                                                    질병관리본부
+                                                </span>
+                                                <span class="time">www.cdc.go.kr</span>
+                                            </div>
+
+                                        </a>
+
+
+
+
+                                        <a href="http://www.mohw.go.kr/react/index.jsp">
+                                            <div class="notif-img">
+                                                <img src="assets/img/korlogo.png" alt="Img Profile">
+                                            </div>
+
+                                            <div class="notif-content">
+                                                <span class="block">
+                                                    보건복지부
+                                                </span>
+                                                <span class="time">www.mohw.go.kr</span>
+                                            </div>
+
+                                        </a>
+
+
+
+
+                                        <a href="http://play.google.com/store/apps/details?id=nocorona.samuelgalaxys.coronamap">
+                                            <div class="notif-icon notif-danger">
+                                                <i class="la la-map">
+                                                </i>
+                                            </div>
+
+                                            <div class="notif-content">
+                                                <span class="block">
+                                                    코로나맵 앱 다운로드
+                                                </span>
+                                            </div>
+
+                                        </a>
+
+
+
+
+
+
+                                    </div>
+                                </li>
+                                <!--  <li>
+                                    <a class="see-all" href="javascript:void(0);"> <strong>See all notifications</strong> <i class="la la-angle-right"></i> </a>
+                                </li>  -->
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="sidebar">
+            <div class="scrollbar-inner sidebar-wrapper">
+
+
+                <!--- 유저프로필
+                <div class="user">
+                                <div class="photo">
+                                    <img src="assets/img/profile.jpg">
+                    </div>
+                                    <div class="info">
+                                        <a class="" data-toggle="collapse" href="#collapseExample" aria-expanded="true">
+                                            <span>
+                                                Hizrian
+                                <span class="user-level">Administrator</span>
+                                                <span class="caret"></span>
+                                            </span>
+                                        </a>
+                                        <div class="clearfix"></div>
+                                        <div class="collapse in" id="collapseExample" aria-expanded="true" style="">
+                                            <ul class="nav">
+                                                <li>
+                                                    <a href="#profile">
+                                                        <span class="link-collapse">My Profile</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#edit">
+                                                        <span class="link-collapse">Edit Profile</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#settings">
+                                                        <span class="link-collapse">Settings</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                -->
+
+
+
+                <ul class="nav">
+
+                    <li class="nav-item active">
+                        <a href="index.html">
+                            <i class="la la-leanpub"></i>
+                            <p>감염지도</p>
+                            <!--<span class="badge badge-count">5</span>-->
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="sheild.html">
+                            <i class="la la-flag"></i>
+                            <p>질병예방</p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="road.html">
+                            <i class="la la-child"></i>
+                            <p>감염경로</p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="china.html">
+                            <i class="la la-adjust"></i>
+                            <p>중국현황</p>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a href="fake.html">
+                            <i class="la la-newspaper-o"></i>
+                            <p>질병상식</p>
+                        </a>
+                    </li>
+
+
+
+                    <li class="nav-item update-pro">
+                        <button data-toggle="modal" data-target="#modalUpdate">
+                            <i class="la la-download"></i>
+                            <p>앱 다운로드</p>
+                        </button>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <i class="la la-newspaper-o"></i>
+                        <!-- hitwebcounter Code START -->
+                        <a href="https://www.hitwebcounter.com" target="_blank">
+                            <img src="https://hitwebcounter.com/counter/counter.php?page=7189482&style=0024&nbdigits=5&type=page&initCount=0" title="Free-Counter" Alt="hitwebcounter" border="0">
+                        </a>
+
+                    </li>
+
+
+
+
+
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="main-panel">
+            <div class="content">
+                <div class="container-fluid">
+                    <h4 class="page-title">신종 코로나바이러스 감염 국내현황</h4>
+                    <div class="row">
+
+
+
+
+
+
+
+                        <!-- 分享浮层 -->
+
+
+
+
+                        <div class="col-md-3">
+                            <div class="card card-stats card-danger">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-7 d-flex align-items-center">
+                                            <div class="numbers">
+                                                <p class="card-category">확진 감염자</p>
+                                                <h4 class="card-title">18</h4>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card card-stats card-warning">
+                                <div class="card-body ">
+                                    <div class="row">
+
+                                        <div class="col-7 d-flex align-items-center">
+                                            <div class="numbers">
+                                                <p class="card-category">유증상자</p>
+                                                <h4 class="card-title">696</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card card-stats card-success">
+                                <div class="card-body ">
+                                    <div class="row">
+
+                                        <div class="col-7 d-flex align-items-center">
+                                            <div class="numbers">
+                                                <p class="card-category">완치된 환자</p>
+                                                <h4 class="card-title">1</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card card-stats card-final">
+                                <div class="card-body ">
+                                    <div class="row">
+
+                                        <div class="col-7 d-flex align-items-center">
+                                            <div class="numbers">
+                                                <p class="card-category">사망</p>
+                                                <h4 class="card-title">아직 없음</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <!-- 							<div class="col-md-3">
+                            <div class="card card-stats">
+                                <div class="card-body ">
+                                    <div class="row">
+                                        <div class="col-5">
+                                            <div class="icon-big text-center icon-warning">
+                                                <i class="la la-pie-chart text-warning"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-7 d-flex align-items-center">
+                                            <div class="numbers">
+                                                <p class="card-category">Number</p>
+                                                <h4 class="card-title">150GB</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card card-stats">
+                                <div class="card-body ">
+                                    <div class="row">
+                                        <div class="col-5">
+                                            <div class="icon-big text-center">
+                                                <i class="la la-bar-chart text-success"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-7 d-flex align-items-center">
+                                            <div class="numbers">
+                                                <p class="card-category">Revenue</p>
+                                                <h4 class="card-title">$ 1,345</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card card-stats">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-5">
+                                            <div class="icon-big text-center">
+                                                <i class="la la-times-circle-o text-danger"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-7 d-flex align-items-center">
+                                            <div class="numbers">
+                                                <p class="card-category">Errors</p>
+                                                <h4 class="card-title">23</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card card-stats">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-5">
+                                            <div class="icon-big text-center">
+                                                <i class="la la-heart-o text-primary"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-7 d-flex align-items-center">
+                                            <div class="numbers">
+                                                <p class="card-category">Followers</p>
+                                                <h4 class="card-title">+45K</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="row">
+
+
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">감염 지도</h4>
+                                <p class="card-category">
+                                    코로나 바이러스 감염 지역을 확인하세요.
+                                </p>
+                            </div>
+                            <div class="card-body">
+                                <div class="mapcontainer">
+                                    <div class="map">
+                                        <span>Alternative content for the map</span>
+
+                                    </div>
+                                    <div class="row">
+
+                                        <div class="col-md-3">
+                                            <div class="card card-stats card-disater1">
+
+                                                <div class="card-body">
+                                                    <div class="row">
+                                                        <div class="col-5">
+                                                            <div class="icon-big text-center">
+                                                                <i class="la la-ban"></i>
+                                                            </div>
+                                                        </div>
+
+
+                                                        <div class="col-7 d-flex align-items-center">
+                                                            <div class="numbers">
+                                                                <h4 class="card-titlez">매우 위험</h4>
+                                                                <p class="card-categoryz">감염(확진)자수 </br>1만명 이상</p>
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="card card-stats card-disater2">
+                                                <div class="card-body ">
+                                                    <div class="row">
+                                                        <div class="col-5">
+                                                            <div class="icon-big text-center">
+                                                                <i class="la la-crosshairs"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-7 d-flex align-items-center">
+                                                            <div class="numbers">
+                                                                <h4 class="card-titlez">위험</h4>
+                                                                <p class="card-categoryz">감염(확진)자수 </br>10명 이상</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="card card-stats card-disater3">
+                                                <div class="card-body ">
+                                                    <div class="row">
+                                                        <div class="col-5">
+                                                            <div class="icon-big text-center">
+                                                                <i class="la la-hand-paper-o"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-7 d-flex align-items-center">
+                                                            <div class="numbers">
+                                                                <h4 class="card-titlez">경계</h4>
+                                                                <p class="card-categoryz">감염(확진)자수 </br>5명 이상</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="card card-stats card-disater4">
+                                                <div class="card-body ">
+                                                    <div class="row">
+                                                        <div class="col-5">
+                                                            <div class="icon-big text-center">
+                                                                <i class="la la-bar-chart"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-7 d-flex align-items-center">
+                                                            <div class="numbers">
+                                                                <h4 class="card-titlez">주의</h4>
+                                                                <p class="card-categoryz">감염(확진)자수</br>1명 이상</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="row row-card-no-pd">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p class="fw-bold mt-1">전 세계 확진자</p>
+                                    <h4><b>20619명</b></h4>
+                                    <a href="#" class="btn btn-primary btn-full text-left mt-3 mb-3"><i class="la la-plus"></i>자료 공유하기</a>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-5">
+                            <div class="card">
+                                <div class="card-body">
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card card-stats">
+                                <div class="card-body">
+                                    <p class="fw-bold mt-1">비 교</p>
+                                    <div class="row">
+
+                                        <div class="col-7 d-flex align-items-center">
+                                            <div class="numbers">
+                                                <p class="card-category">SARS(2003)</p>
+                                                <h4 class="card-title">감염3245명</br>사망240명</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="row">
+
+                                        <div class="col-7 d-flex align-items-center">
+                                            <div class="numbers">
+                                                <p class="card-category">MERS(2015)</p>
+                                                <h4 class="card-title">감염349명</br>사망16명</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <div class="row">
+
+
+
+
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">주요 증상</h4>
+                                    <p class="card-category">
+                                        '우한폐렴' 감염의 주요 증상입니다.
+                                    </p>
+                                </div>
+                                <div class="card-body">
+                                    <div id="monthlyChart" class="chart chart-pie"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!--
+
+                                <div class="col-md-8">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">중국 감염자 증가 추이(개발중)</h4>
+                                    <p class="card-category">
+                                        자료출처 : Tencent
+                                            </p>
+                                </div>
+                                <div class="card-body">
+                                    <div id="salesChart" class="chart"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        -->
+
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header ">
+                                    <h4 class="card-title"><a href="road.html">국내 감염상황</a></h4>
+                                    <p class="card-category">본 정보는 정확하지 않을 수 있습니다.</p>
+                                </div>
+
+
+                                <div class="card-body">
+                                    <table class="table table-head-bg-success table-striped table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">지역명</th>
+                                                <th scope="col">확진자</th>
+                                                <th scope="col">의심자</th>
+                                                <th scope="col">사망자</th>
+                                            </tr>
+                                        </thead>
+
+
+                                        <tbody>
+                                            <tr>
+                                                <td>서울</td> <!--지역명-->
+                                                <td>7</td> <!--확진자-->
+                                                <td>...</td> <!--의심자-->
+                                                <td>0</td> <!--사망자-->
+                                            </tr>
+
+                                            <tr>
+                                                <td>인천</td> <!--지역명-->
+                                                <td>4</td> <!--확진자-->
+                                                <td>...</td> <!--의심자-->
+                                                <td>0</td> <!--사망자-->
+                                            </tr>
+
+
+                                            <tr>
+                                                <td>성남</td> <!--지역명-->
+                                                <td>2</td> <!--확진자-->
+                                                <td>...</td> <!--의심자-->
+                                                <td>0</td> <!--사망자-->
+                                            </tr>
+
+
+                                            <tr>
+                                                <td>평택</td> <!--지역명-->
+                                                <td>1</td> <!--확진자-->
+                                                <td>...</td> <!--의심자-->
+                                                <td>0</td> <!--사망자-->
+                                            </tr>
+
+                                            <tr>
+                                                <td>익산</td> <!--지역명-->
+                                                <td>1</td> <!--확진자-->
+                                                <td>...</td> <!--의심자-->
+                                                <td>0</td> <!--사망자-->
+                                            </tr>
+
+
+
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    < !--Modal -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/libs/isMobile.min.js"
+            charset="utf-8"></script>
+    <script src="https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/libs/jquery.js"
+            charset="utf-8"></script>
+    <script src="https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/libs/longpress.js" charset="utf-8"></script>
+    <script src="https://mat1.gtimg.com/news/zhishiguan/page/html2canvas.js"
+            charset="utf-8"></script>
+    <script src="https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/libs/echarts.min.js"
+            charset="utf-8"></script>
+    <script src="https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/libs/d3.csv.min.js"
+            charset="utf-8"></script>
+    <script src="https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/libs/intersection-observer.js"
+            charset="utf-8"></script>
+    <script src="https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/js/20220222/intro_vp_v3.js" charset="utf-8"></script>
+    <script src="https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/js/20220222/news_vp_v3.js" charset="utf-8"></script>
+    <script>
+        $('meta[property="og:image"]').attr('content', shareData.img);
+        $('meta[property="og:title"]').attr('content', shareData.title);
+        $('meta[property="og:description"]').attr('content', shareData.desc);
+        $('meta[property="og:url"]').attr('content', shareData.link);
+    </script>
+    <script>
+        //pv uv 监控
+        var _mtac = {};
+        (function () {
+            var mta = document.createElement("script");
+            mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";
+            mta.setAttribute("name", "MTAH5");
+            mta.setAttribute("sid", "500709844");
+            mta.setAttribute("cid", "500709845");
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(mta, s);
+        })();
+    </script>
+    <script src="https://mat1.gtimg.com/www/js/emonitor/index_20200103.js" charset="utf-8"></script>
+    <script src="https://mat1.gtimg.com/news/images/inews/2020/feiyan/libs/emonitor.js" charset="utf-8"></script>
+    <canvas id="formap"></canvas>
+    <script>
+        window.onload = function () {
+            let ismmp = /QQ\//gi.test(navigator.userAgent) && /miniProgram/gi.test(navigator.userAgent);
+            if (ismmp) {
+                $('.flex-box').hide();
+            }
+        };
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="modalUpdate" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalUpdatePro" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h6 class="modal-title"><i class="la la-download"></i> 코로나맵 앱 다운로드</h6>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="닫기">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="photo">
+                        <img width="50%" height="50%" src="assets/img/appicon.png">
+
+                    </div>
+                    <p>구글 플레이 스토어에서<b> '코로나맵'을 검색하세요.</b> 또는 QR코드를 스캔해 다운로드 할 수 있습니다.</p>
+                    <p>
+                        <b>QR코드를 스캔해 주세요.</b>
+
+
+                        <div class="photo">
+                            <img width="120" height="120" src="assets/img/covapp.jpg">
+
+                        </div>
+
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://play.google.com/store/apps/details?id=nocorona.samuelgalaxys.coronamap">
+                        <button type="button" class="btn btn-secondary">다운로드</button>
+                    </a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="assets/js/core/jquery.3.2.1.min.js"></script>
+<script src="assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="assets/js/core/popper.min.js"></script>
+<script src="assets/js/core/bootstrap.min.js"></script>
+<script src="assets/js/plugin/chartist/chartist.min.js"></script>
+<script src="assets/js/plugin/chartist/plugin/chartist-plugin-tooltip.min.js"></script>
+<script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+<script src="assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js"></script>
+<script src="assets/js/plugin/jquery-mapael/jquery.mapael.min.js"></script>
+<script src="assets/js/plugin/jquery-mapael/maps/world_countries.min.js"></script>
+<script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+<script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+<script src="assets/js/ready.min.js"></script>
+<script src="assets/js/demo.js"></script>
+<script src="modal.js"></script>
+
+</html>

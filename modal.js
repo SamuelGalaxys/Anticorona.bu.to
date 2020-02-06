@@ -61,7 +61,7 @@ $(".mapcontainer").mapael({
         // },
 
         "CN": {
-            tooltip: { content: "<b>중화인민공화국</b><br/>확진 : 20438<br/>의심 : 23214<br/>치유 : 694<br/>사망 : 426" },
+            tooltip: { content: "<b>중화인민공화국</b><br/>확진 : 2만여 명<br/>의심 : 2만여 명<br/>치유 : 694<br/>사망 : 426" },
             attrs: {
                 fill: "#000000" //위험수위 1위 색상11111111
             }
@@ -72,7 +72,7 @@ $(".mapcontainer").mapael({
 
 
         "KR": {
-            tooltip: { content: "<b>대한민국</b><br/>확진 : 16<br/>의심 : 512<br/>치유 : 0<br/>사망 : 0" },
+            tooltip: { content: "<b>대한민국</b><br/>확진 : 23<br/>의심 : 696<br/>치유 : 1<br/>사망 : 0" },
             attrs: {
                 fill: "#7a0000" //위험수위 2단계 색상222222222
             }

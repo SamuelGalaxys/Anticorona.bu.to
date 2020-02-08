@@ -83,7 +83,7 @@ $(".mapcontainer").mapael({
 
 
         "JP": {
-            tooltip: { content: "<b>일본</b><br/>확진 : 16<br/>의심 : 300<br/>치유 : 4<br/>사망 : 0" },
+            tooltip: { content: "<b>일본</b><br/>확진 : 64<br/>의심 : 300<br/>치유 : 4<br/>사망 : 0" },
             attrs: {
                 fill: "#7a0000" //위험수위 2단계 색상222222222
             }
@@ -93,7 +93,7 @@ $(".mapcontainer").mapael({
         },
 
         "SG": {
-            tooltip: { content: "<b>싱가포르</b><br/>확진 : 13<br/>의심 : ?<br/>치유 : 0<br/>사망 : 0" },
+            tooltip: { content: "<b>싱가포르</b><br/>확진 : 46<br/>의심 : ?<br/>치유 : 0<br/>사망 : 0" },
             attrs: {
                 fill: "#7a0000" //위험수위 2단계 색상222222222
             }

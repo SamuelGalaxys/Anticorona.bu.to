@@ -1,16 +1,16 @@
 ﻿  
-    $(document).ready(function () {
-        $("#modalUpdate").modal('show');
-        
 
-    });
+
+  //  $(document).ready(function () {
+ //       $("#modalUpdate").modal('show');
+ //   });
 
  
 
 $.notify({
 	icon: 'la la-bell',
-	title: '국내 16번째 확진자 발생',
-	message: '외출 시 마스크를 착용해 주시고 가능한 공공장소는 피하십시오.',
+	title: '국내 26번째 확진자 발생',
+	message: '마스크 착용에 유의해주세요.',
 },{
 	type: 'success',
 	placement: {

@@ -1,9 +1,9 @@
 ﻿  
 
 
-  //  $(document).ready(function () {
- //       $("#modalUpdate").modal('show');
- //   });
+    $(document).ready(function () {
+        $("#modalUpdate").modal('show');
+    });
 
  
 

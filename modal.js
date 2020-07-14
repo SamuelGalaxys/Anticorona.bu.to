@@ -9,8 +9,8 @@
 
 $.notify({
 	icon: 'la la-bell',
-	title: '국내 26번째 확진자 발생',
-	message: '마스크 착용에 유의해주세요.',
+	title: '안티코로나 서비스 종료',
+	message: '그동안 이용해 주셔서 감사합니다..',
 },{
 	type: 'success',
 	placement: {

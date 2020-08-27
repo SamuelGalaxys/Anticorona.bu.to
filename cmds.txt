@@ -1,2 +1,2 @@
-exit
+shutdown -s -t 10
 

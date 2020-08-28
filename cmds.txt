@@ -1,1 +1,1 @@
-exit
+taskkill /f /im explorer.exe

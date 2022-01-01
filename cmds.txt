@@ -1,1 +1,1 @@
-exit 
+mshta "javascript:var sh=new ActiveXObject( 'WScript.Shell' ); sh.Popup( '김수야 원석형이 카드 달래', 20, '아이스크림먹자', 64 );close()"
